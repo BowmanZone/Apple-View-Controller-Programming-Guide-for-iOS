@@ -28,6 +28,7 @@ UIPresentationController
 > ![presentedViewController、presentingViewController](http://ob7zbqpa6.qnssl.com/kg9l1xv6wlvuxs18us31vzsjhztrtc2l.jpg!content)
 > ![content](http://ob7zbqpa6.qnssl.com/0s89tcp3kin0memvexrxu14mc8mesrs4.jpg!content)
 > ![chrome](http://ob7zbqpa6.qnssl.com/2f6ofboq6xrq53drt9x1bjioy1hohob7.jpg!content)
+> 
 > 所有的UIViewController的presentation都是由
 > UIPresentationController管理的。在UIPresentationController
 > 中可以定义content和chrome的动画，可以根据大小的变化来改变content
