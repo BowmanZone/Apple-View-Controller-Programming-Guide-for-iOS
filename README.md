@@ -21,11 +21,11 @@ UIPresentationController
 >
 先讲一些presentation基础知识，在iPad的设置页面，可以通过popOver弹出一个UIViewController，这个弹出的，可以和用户交互的Controller叫做PresentedViewController，而后面那个被部分遮挡的UIViewController叫做PresentingViewController，而在UIPresentationController中，PresentedViewController是presentation的content，而PresentingViewController叫做Chrome。如下图：
 
-[presentedViewController、presentingViewController](http://ob7zbqpa6.qnssl.com/kg9l1xv6wlvuxs18us31vzsjhztrtc2l.jpg!content)
+![presentedViewController、presentingViewController](http://ob7zbqpa6.qnssl.com/kg9l1xv6wlvuxs18us31vzsjhztrtc2l.jpg!content)
 
-[content](http://ob7zbqpa6.qnssl.com/0s89tcp3kin0memvexrxu14mc8mesrs4.jpg!content)
+![content](http://ob7zbqpa6.qnssl.com/0s89tcp3kin0memvexrxu14mc8mesrs4.jpg!content)
 
-[chrome](http://ob7zbqpa6.qnssl.com/2f6ofboq6xrq53drt9x1bjioy1hohob7.jpg!content)
+![chrome](http://ob7zbqpa6.qnssl.com/2f6ofboq6xrq53drt9x1bjioy1hohob7.jpg!content)
 
 所有的UIViewController的presentation都是由UIPresentationController管理的。在UIPresentationController中可以定义content和chrome的动画，可以根据大小的变化来改变content大小，可以根据系统的不同，来改变展示方式，UIPresentationController也是可复用的，可以很容易的拿到其他的UIViewController中去使用。
 >
