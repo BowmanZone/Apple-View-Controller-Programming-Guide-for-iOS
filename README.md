@@ -65,7 +65,7 @@ UIKit稍后会使用你的 `resotration identifier`字符串来重新创建视�
 ##Restoring View Controllers at Launch Time
 在启动的时候，UIKit尝试恢复你的应用程序之前的状态。在这个时候，UIKit告诉你的应用程序创建（或者定位）视图控制器对象来组成你保存的用户界面。当你尝试定位视图控制器的时候，UIKit按照下面的顺序进行搜索：
 
-此图来自 [http://useyourloaf.com/blog/state-preservation-and-restoration/] 网站
+此图来自<http://useyourloaf.com/blog/state-preservation-and-restoration/>网站,里面还有相关例子上传到Github上。
 
 ![流程图](http://useyourloaf.com/assets/images/2013/StateRestoration.png)
 
